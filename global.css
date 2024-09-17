@@ -1,0 +1,11 @@
+.testimonial-img {
+    width: 100px; /* Tamaño más pequeño para asegurar que no sean enormes */
+    height: 100px; /* Mantén la altura igual al ancho */
+    object-fit: cover; /* Para recortar la imagen sin deformarla */
+    border-radius: 50%; /* Asegura que la imagen sea circular */
+    border: 3px solid #f1f1f1; /* Borde blanco para dar un acabado limpio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un toque elegante */
+    max-width: 100px; /* Limita el tamaño máximo de las imágenes */
+    max-height: 100px; /* Limita la altura máxima también */
+    margin: 0 auto; /* Centra la imagen en su contenedor */
+}
